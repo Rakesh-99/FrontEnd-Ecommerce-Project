@@ -832,3 +832,126 @@ p {
   text-decoration: none;
   color: #088178;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact Section  */
+
+
+
+
+#contactBanner{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("img/about/banner.png");
+  background-position: center;
+  background-size: cover;
+  /* height: 350px; */
+}
+#contactBanner p{
+  color: #fff;
+}
+#contactBanner h2{
+  color: #fff;
+}
+#detailsSection{
+  display: flex;
+  /* margin-top: 30px; */
+}
+#detailsSection .mapdetailsIcons{
+  display: flex;
+  flex-direction: column;
+}
+#detailsSection .mapdetailsIcons i{
+  margin: 15px 0;
+}
+#detailsSection .mapdetailsIcons i span{
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 0 0 25px;
+}
+#detailsSection .mapDetails{
+  width: 40%;
+}
+#detailsSection .mapDetails h5{
+  margin: 35px 0 10px 0;
+}
+#detailsSection .mapContainer{
+  width: 60%;
+ 
+  
+
+}
+#detailsSection .mapContainer iframe{
+  width: 100%;
+  height: 350px;
+  
+}
+
+#contactForm .parentHolder {
+  border: 1px solid rgb(68, 68, 68);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+  width: 98%;
+  padding: 40px 30px;
+}
+
+.inputBoxes{
+  display: flex;
+  flex-direction: column;
+  
+}
+.inputBoxes input{
+
+  width: 500px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  /* border-radius: 1px; */
+  outline: none;
+}
+.parentHolder .inputContainer-details {
+    width: 75%;
+}
+.inputBoxes #msgBox{
+  height: 100px;
+  
+}
+form button{
+  padding: 10px 35px;
+  background-color: #088178;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.parentHolder{
+  display: flex;
+}
+.parentHolder .memberC img{
+  width: 50px;
+  object-fit: cover;
+}
+.memberC p{
+  font-size: 12px;
+}
+#contactForm{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+}

@@ -95,7 +95,47 @@
 .aboutContent p{
   text-align: justify;
   }
+
+    /* contact page responsive  */
+
+    #detailsSection .mapdetailsIcons i {
+      margin: 5px 0;
+     
+    }
+    .section-p1 {
+      padding: 40px 20px;
+  }
+
+  .inputBoxes input {
+    width: 400px;
 }
+
+form button {
+  margin-top: 15px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /* Responsive for very Small Devices  */
@@ -105,7 +145,13 @@
     #footerContainer .footerList .pay-play .play {
       margin: 10px 0;
   }
-  }
+  .inputBoxes input {
+    width: 300px;
+    }
+    .members{
+      margin-top: 40px;
+      }
+}
 
 
 
@@ -243,6 +289,38 @@
     text-align: center;
     margin: 20px 20px;
 
+}
+
+
+
+/* contact page  */
+
+#detailsSection {
+  flex-direction: column;
+}
+.parentHolder {
+  display: flex;
+  flex-direction: column;
+}
+#detailsSection .mapDetails {
+  width: 100%;
+  padding: 0 20px;
+}
+#detailsSection .mapContainer {
+  width: 100%;
+  margin: 20px 0;
+}
+#contactForm .parentHolder {
+  padding: 40px 10px;
+}
+.inputBoxes input {
+  width: 375px;
+}
+.members{
+  margin-top: 50px;
+}
+.members{
+margin-top: 40px;
 }
 
 
