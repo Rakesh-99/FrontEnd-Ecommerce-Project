@@ -925,7 +925,7 @@ p {
 .parentHolder .inputContainer-details {
     width: 75%;
 }
-.inputBoxes #msgBox{
+.inputBoxes #userMsg{
   height: 100px;
   
 }
@@ -954,4 +954,12 @@ form button{
   width: 100%;
   justify-content: center;
   
+}
+.inputBoxes span{
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  font-size: 12px;
+}
+.inputBoxes .success{
+  color: rgb(0, 116, 0);
 }

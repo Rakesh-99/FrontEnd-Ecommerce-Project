@@ -101,13 +101,31 @@
                 <p>LEAVE A MESSAGE</p>
                 <h3>We love to hear from you</h3>
 
-                <form>
+                <form action="" onsubmit="return formValidate()">
 
                     <div class="inputBoxes">
-                        <input type="text" placeholder="Your Name">
-                        <input type="text" placeholder="E-mail">
-                        <input type="text" placeholder="Subject">
-                        <input type="text" placeholder="Message" id="msgBox">
+                        <input type="text" id="userName" placeholder="User Name">
+                        <span id="spn1"></span>
+                        
+                        
+
+                        <input type="text" placeholder="E-mail" id="userMail">
+                        <span id="spn2"></span>
+                       
+
+
+
+                        <input type="text" placeholder="Subject" id="userSub">
+                        <span id="spn3"></span>
+                     
+
+
+
+                        <input type="text" placeholder="Message" id="userMsg" >
+                        <span id="spn4"></span>
+                      
+
+
                     </div>
 
                     <button type="submit" id="formBtn">Submit</button>
@@ -296,7 +314,7 @@
 
 
 
-    <script src="script.js" type="text/javascript"></script>
+    <script src="script.js"></script>
 </body>
 </html>
 
