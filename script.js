@@ -53,7 +53,7 @@ function formValidate() {
     check = 0;
     
   } else if (username.length < 3) {
-    document.getElementById("spn1").innerHTML = "* Username must be equal or greater than  characters !";
+    document.getElementById("spn1").innerHTML = "* Username must be equal or greater than 3 characters !";
     check = 0;
    
   } else {
